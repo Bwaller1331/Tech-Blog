@@ -8,7 +8,7 @@ A tech-blog app that allows users to create an account, and create posts that au
 
 ## Screenshot
 ***
-<img src="https://github.com/Bwaller1331/React-Portfolio/blob/main/public/img/react-portfolio-screenshot.png?raw=true" alt="Screenshot" height="1100px"  />
+<img src="https://github.com/Bwaller1331/Tech-Blog/blob/main/img/tech-blog-screenshot.png?raw=true" alt="Screenshot" height="1100px"  />
 
 ## Author
 ***
