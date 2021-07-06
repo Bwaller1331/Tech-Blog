@@ -1,0 +1,45 @@
+.create {
+  border-radius: 25px;
+  
+  padding: 25px 15px;
+  background-color:#4b4b49 ;
+  margin: 20px;
+  height:fit-content ;
+  box-shadow: 4px 2px 5px rgb(24, 24, 24);
+  text-align: left;
+  color: aliceblue;
+};
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: large;
+  text-decoration: none;
+  
+}
+
+.no-button:hover {
+  color: #4bd1e9;
+  text-decoration:underline;
+}
+header{
+  background-color:#4b4b49 ;
+  margin-left: 15%;
+}
+
+.post {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color:#4b4b49 ;
+  margin: 50px 0;
+  height: 200px;
+  box-shadow: 4px 2px 5px rgb(24, 24, 24);
+  text-align: left;
+  color: aliceblue;
+};
+
+
+
