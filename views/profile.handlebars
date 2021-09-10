@@ -1,12 +1,13 @@
-<div class="row">
+<div class="prowrapper text-light">
+  <div class="row">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
   </div>
 </div>
 
-<div class="row mt-4 ">
-  <div class="col-md-6 create-post create">
-    <h3>Create a New Post:</h3>
+<div class="row mt-4 bg-primary postForm">
+  <div class="col-md-6   create-post ">
+    <h3 class="text-light">Create a New Post:</h3>
 
     <form class="form new-post-form ">
       <div class="form-group ">
@@ -14,31 +15,32 @@
         <input class="form-input" type="text" id="post-name" name="post-name" />
       </div>
       <div class="form-group">
-        <label for="post-desc">description:</label>
-        <textarea class="form-input" id="post-desc" name="post-desc"></textarea>
+        <label for="post-desc">Description:</label>
+        <textarea class="form-input charCount"  maxlength="200" id="post-desc" placeholder="200 character max"name="post-desc"></textarea>
+        <span id="chars">200 characters remaining</span>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
+        <button type="submit" class="btn btn-info">Create</button>
       </div>
     </form>
   </div>
 
   {{#if posts.length}}
-  <div class="col-md-6 post-list create">
+  <div class="col-md-6 post-list ">
     <h3>Current Posts:</h3>
 
     {{#each posts as |post|}}
-    <div class="row mb-2  ">
-      <div class="col-md-8">
+    <div class="row mb-2 pro-post ">
+      <div class="col-md-8 ">
         <h4><a href="/post/{{post.id}}">{{post.name}}</a></h4>
       </div>
       <div class="col-md-4 ">
-        <button class="btn btn-md btn-danger" data-id="{{post.id}}">DELETE</button>
+        <button class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
       </div>
     </div>
     {{/each}}
   </div>
   {{/if}}
+  </div>
 </div>
-
 <script src="./js/profile.js"></script>

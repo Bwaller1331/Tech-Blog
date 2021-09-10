@@ -5,24 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech-Blog</title>
+
   <link rel="stylesheet" href="/css/jass.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+  {{!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> --}}
+  
+  
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex text-center  page-header justify-space-between ">
+  <div class="flex-column text-center justify-space-around">
+    <header class="display-flex justify-center main-header bg-primary text-info justify-space-between ">
+      <nav>
       <h1>
         <a class="" href="/">Tech-Blog</a>
       </h1>
-      <nav>
+      
         
         {{#if logged_in}}
-        <a class="no-button" href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <a class="no-button nav-button" href="/profile">profile</a> |
+        <a class="no-button nav-button" id="logout">logout</a>
         {{else}}
-        <a class="no-button" href="/login">login</a>
+        <a class="no-button nav-button" href="/login">Login</a>
         {{/if}}
       </nav>
     </header>
@@ -36,6 +40,7 @@
 
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
   {{/if}}
 </body>
 

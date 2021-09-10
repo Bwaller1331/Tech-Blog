@@ -1,13 +1,13 @@
 
 {{#each posts as |post| }}
-<div class="post text-light">
-  <div class="col-md-5 text-light">
+<div class="home-post card col-lg bg-primary text-light">
+  <div class=" ptitle text-light">
     <h2>
-      <a href="/post/{{post.id}}">{{post.name}}</a>
+      <a class="card-title" href="/post/{{post.id}}">{{post.name}}</a>
     </h2>
-    <p>Created by {{post.user.name}} on {{format_date post.date_created}}</p>
+    <p class="card-author">Created by {{post.user.name}} on {{format_date post.date_created}}</p>
   </div>
-  <div class="col-md-7">
+  <div class="card-desc text-dark bg-info">
     <p>
       {{post.description}}
     </p>

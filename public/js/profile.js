@@ -37,6 +37,14 @@ const delButtonHandler = async (event) => {
   }
 };
 
+var maxLength = 200;
+const textArea = document.querySelector('.charCount');
+ textArea.addEventListener('input', () => {
+  var length = textArea.value.length;
+  var length = maxLength-length;
+  document.querySelector('#chars').textContent = length + " characters remaining";
+})
+
 document
   .querySelector('.new-post-form')
   .addEventListener('submit', newFormHandler);

@@ -1,14 +1,14 @@
 [
   {
-    "name": "Sample Post",
-    "description": "Sample text for a sample blog post"
+    "name": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum nulla vitae risus malesuada, non vulputate tortor consequat. Vestibulum varius, nunc id elementum facilisis, lacus felis ullamcorper mi, ut efficitur."
   },
   {
-    "name": "Sample Post",
-    "description": "Sample text for a sample blog post"
+    "name": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis dolor ac imperdiet aliquam. Nulla tincidunt arcu nec imperdiet cursus. Maecenas cursus, risus vitae fermentum aliquet, neque erat mattis turpis."
   },
   {
-    "name": "Sample Post",
-    "description": "Sample text for a sample blog post"
+    "name": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis vestibulum sollicitudin. Duis risus justo, dictum interdum bibendum et, mollis in dolor. Aenean dictum odio elit, eu malesuada enim elementum."
   }
 ]

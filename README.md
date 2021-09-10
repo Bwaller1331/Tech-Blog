@@ -1,15 +1,40 @@
 # Tech-Blog App
 ***
+## Table of Contents
+  - [Technologies](#technologies-used)
+  - [Description](#description)
+  - [Deployed Site](#deployed-Site)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
 
+## Technologies Used
+  - NodeJs
+  - express-handlebars
+  - Bootstrap
+  - bcrypt
+  - express-sessions
+  - sequelize
 ## Description
-***
-A tech-blog app that allows users to create an account, and create posts that automatically render on the homepage.
-## <a href="https://tech-blog-app-brandon.herokuapp.com/">Deployed Application</a>
+This App is a blog app that displays user entries on the main page. Users can signup or login to the site. 
+Then the user can create a post from their profile page and it will appear on the main site. Users also have the option to delete their posts on their profile page and the post will be removed from the main page.
+## Deployed Site
 
-## Screenshot
-***
-<img src="https://github.com/Bwaller1331/React-Portfolio/blob/main/public/img/react-portfolio-screenshot.png?raw=true" alt="Screenshot" height="1100px"  />
+<div align="center">
+    <a href="https://tech-blog-app-brandon.herokuapp.com/">Click Here to view the Deployed App With Heroku
+    </a>
+</div>
 
-## Author
-***
-### Brandon Waller
+- ![Home](src\assets\user-directory-screenshot-home.png)
+
+
+## Installation 
+Clone the repo, open in terminal, run npm install
+
+## Usage
+After the installation steps are done, run npm start in the terminal
+
+## License
+MIT License
+Copyright (c) [2020] [Brandon Waller]
+
