@@ -9,6 +9,7 @@
   - [License](#license)
 
 ## Technologies Used
+  - MySQL
   - NodeJs
   - express-handlebars
   - Bootstrap
