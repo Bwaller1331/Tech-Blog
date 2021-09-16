@@ -26,7 +26,7 @@ Then the user can create a post from their profile page and it will appear on th
     </a>
 </div>
 
-- ![Home](src\assets\user-directory-screenshot-home.png)
+- <img src="https://github.com/Bwaller1331/Tech-Blog/blob/main/img/tech_blog_screenshot.png?raw=true" alt="homepage" width="1000" height="1000" />
 
 
 ## Installation 
